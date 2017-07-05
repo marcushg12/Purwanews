@@ -9,10 +9,17 @@
 	<title>PurwaNews</title>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet" type="text/css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+    	
+    	.navfoot {
+    		margin-top: 50px;
+    	}
+    </style>
 
 </head>
 <body>
@@ -20,7 +27,7 @@
 <!--header-->
 
 	<div class="content content-header">
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -38,20 +45,20 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <form class="navbar-form navbar-right">
 		        <div class="form-group">
-		          <input type="text" class="form-control" placeholder="Search">
+		          <input type="text" class="form-control input-sm" placeholder="Search">
 		        </div>
-		        <button type="submit" class="btn btn-default">Submit</button>
+		        <button type="button" class="btn btn-default btn-sm">
+		          <span class="glyphicon glyphicon-search"></span> Search 
+		        </button>
 		        <a href="#">Sign up / Login</a>
 		      </form>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-	</div>
 
-	<div class="content content-header">
-		<nav class="navbar navbar-default navbar-footer">
+		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
-		    <div class="navbar-header">
+		    <div class="navfoot">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
@@ -82,6 +89,10 @@
 		</nav>
 	</div>
 
+	<div class="content content-header">
+		
+	</div>
+
 
 <!--content-->
 
@@ -90,17 +101,21 @@
 		<div class="container-fluid">
 			<div class="row" align="center">
 			  <div class="col-md-2">
+			  <img src="image/st3.png" height="300" width="200">
+
 			  	Instagram menjadi salah satu media sosial yang digemari oleh banyak orang di dunia. Segala momen diabadikan dan di-upload ke Instagram demi mendapatkan banyak likes hingga followers. Lewat Instagram, kalian bisa memperlihatkan kehidupan sehari-hari yang dinilai menarik.
 
 				Bahkan banyak orang yang melakukan segala aktivitas demi di-share di Instagram. Tak heran jika Instagram sudah menjadi gaya hidup masyarakat masa kini. Ada hal yang harus diperhatikan untuk membuat feed Instagram menjadi lebih menarik, yakni aplikasi meng-edit foto. Berikut deretan aplikasi yang bisa dicoba:
+
+
 			  </div>
-			  <div class="col-md-8">
+			  <div class="col-md-7">
 			    Instagram menjadi salah satu media sosial yang digemari oleh banyak orang di dunia. Segala momen diabadikan dan di-upload ke Instagram demi mendapatkan banyak likes hingga followers. Lewat Instagram, kalian bisa memperlihatkan kehidupan sehari-hari yang dinilai menarik.
 
 				Bahkan banyak orang yang melakukan segala aktivitas demi di-share di Instagram. Tak heran jika Instagram sudah menjadi gaya hidup masyarakat masa kini. Ada hal yang harus diperhatikan untuk membuat feed Instagram menjadi lebih menarik, yakni aplikasi meng-edit foto. Berikut deretan aplikasi yang bisa dicoba:
 
 			  </div>
-			  <div class="col-md-2">
+			  <div class="col-md-3">
 			    Instagram menjadi salah satu media sosial yang digemari oleh banyak orang di dunia. Segala momen diabadikan dan di-upload ke Instagram demi mendapatkan banyak likes hingga followers. Lewat Instagram, kalian bisa memperlihatkan kehidupan sehari-hari yang dinilai menarik.
 
 				Bahkan banyak orang yang melakukan segala aktivitas demi di-share di Instagram. Tak heran jika Instagram sudah menjadi gaya hidup masyarakat masa kini. Ada hal yang harus diperhatikan untuk membuat feed Instagram menjadi lebih menarik, yakni aplikasi meng-edit foto. Berikut deretan aplikasi yang bisa dicoba:
